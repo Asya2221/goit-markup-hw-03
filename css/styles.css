@@ -200,8 +200,7 @@ ul {
 
 .team {
     background-color: #F4F4FD;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 120px 0;
 }
 
 .team-title {
@@ -216,9 +215,9 @@ ul {
 }
 
 .team-list {
-display: flex;
-gap: 24px;
-justify-content: space-between;
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
 }
 
 .team-item {
@@ -228,8 +227,12 @@ justify-content: space-between;
 }
 
 .team-image {
-    margin-bottom: 32px;
     display: block;
+    width: 100%;
+}
+
+.team-info {
+    padding: 32px 0;
 }
 
 .team-subtitle {
@@ -249,7 +252,6 @@ justify-content: space-between;
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
-    margin-bottom: 32px;
 }
 
 /*--------------------PORTFOLIO---------------*/
@@ -281,22 +283,15 @@ justify-content: space-between;
     width: calc((100% - 48px) / 3);
     border: 1px solid #e7e9fc;
     border-top: none;
-    padding: 32px 16px;
 }
 
-.portfolio-item-container {
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
-}
 .portfolio-image {
-    margin-bottom: 32px;
     display: block;
+    width: 100%;
 }
 
 .portfolio-item-container {
     padding: 32px 16px;
-    border: 1px solid #e7e9fc;
     border-top: none;
 }
 
@@ -315,7 +310,6 @@ justify-content: space-between;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    margin-bottom: 32px;
 }
 
 /*--------------------FOOTER---------------*/
